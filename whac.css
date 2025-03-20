@@ -1,0 +1,59 @@
+/* .grid{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.square{
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+}
+.square:hover{
+    background-color: aqua;
+
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  h2 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .grd {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    width: 300px; /* Optional width for the grid */
+    margin: 20px auto; /* Center the grid */
+  }
+  
+  .square {
+    width: 200px;
+    height: 200px;
+    background-color: #ffcccb; /* Light red background for squares */
+    border: 2px solid #333; /* Black border */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth background change */
+  }
+  
+  .square:hover {
+    background-color: #ffa07a; /* Light coral on hover */
+  }
+  .mole{
+    background-image: url(imgst/mole.jpg);
+    background-size: cover;
+  }
+  
